@@ -169,18 +169,17 @@ grid-gap: 20px;
 } 
 .green5 { 
   margin: left;
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
-  float: inline-end;
+  float: left;
 
 } 
 .yellow5 {
-  float: right;
   width: 100%; 
   height: 100%;; 
   background-color: gold; 
-  float: right
+  
   
   
 
