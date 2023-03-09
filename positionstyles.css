@@ -4,8 +4,8 @@
   /* This is the parent of the activity 1 boxes. */
 display: grid;
 grid-template-columns: 1fr 1fr;
-justify-items: center;
 grid-gap: 20px;
+grid-template-rows: 1fr 1fr 1fr;
 }
 .red1 { 
   width: 100%; 
