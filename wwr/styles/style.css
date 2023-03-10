@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Sofia+Sans&display=swap');
 
+#content{
+    max-width: 1600px;
+    margin : 0 auto
+}
 body{
-    max-width: 1600px ;
-    margin: 0 auto;
     text-align:center ;
     background-color:#284b63;
     font-family: "Sofia Sans",Helvetica, sans-serif; 
@@ -94,8 +96,8 @@ header{
 .river-grid{
     display:grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20x;
+    grid-template-rows: auto auto auto auto auto auto ;
+    grid-gap: 20px;
     justify-content: center;
     justify-content: center;
 
@@ -103,7 +105,6 @@ header{
 
 .one{
     width: 80%; 
-    height: 400px; 
     grid-row: 1/2;
     
 
@@ -111,32 +112,27 @@ header{
 }
 .two{
     width: 80%; 
-    height: 400px; 
     grid-row: 1/2;
 
 }
 .three{
     width: 80%; 
-  height: 400px; 
   grid-row: 3/4;
   
 
 }
 .four{
     width: 80%; 
-    height: 400px; 
     grid-row : 3/4;
     
 }
 .five{
-    width: 80%; 
-    height: 400px; 
+    width: 80%;
     grid-row:5/6 ;
     
 }
 .six{width: 80%; 
-    height: 400px; 
-    grid: 5/6;
+    grid-row: 5/6;
     
 
 }
