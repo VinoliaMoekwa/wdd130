@@ -74,7 +74,7 @@ h1{
   max-height: 0;
 }
 .navy-background {
-  background-color: #14213d;
+  background-color: #000000;
   color: #fca311;
 }
 footer {
@@ -122,6 +122,7 @@ footer p {
   font-family: "Permanent Marker";
   display: block;
   width: 100%;
+  
 }
 @media screen and (max-width: 900px){
 .female, .male{
