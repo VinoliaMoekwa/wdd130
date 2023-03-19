@@ -211,7 +211,7 @@ main select {
   text-align: center;
 }
 
-footer {
+.footer {
   text-align: left;
   background-color: #3c6e71;
   color: white;
