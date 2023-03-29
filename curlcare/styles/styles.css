@@ -119,6 +119,38 @@ font-family:"Roboto Mono", Helvetica, sans-serif;
   font-family:"Roboto Mono", Helvetica, sans-serif;
 
 }
+/* Curl pattern styles*/
+h1{
+  text-align: center;
+}
+#curl-care-grid{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-rows:repeat(2,1fr);
+  grid-gap: 50px;
+}
+.types{
+  text-align: center;
+  align-self: center;
+
+  
+}
+.paragraph1{
+  text-align: center;
+  align-self: center;
+
+  
+}
+.paragraph2{
+  text-align: center;
+  align-self: center;
+  }
+.chart{
+  
+  text-align: center;
+  align-self: center;
+  }
+
 footer {
   background-color: #000000;
   color: white;
